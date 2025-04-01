@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternative Calculation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Fuel Consumption Calculator</h1>
+        
+        <div class="calculator-container">
+            <h2>Alternative Calculation</h2>
+            <form id="calculator1">
+                <div class="input-group">
+                    <label for="input1">Coal amount, tons:</label>
+                    <input type="number" step="any" id="input1" required>
+                </div>
+                <div class="input-group">
+                    <label for="input2">Fuel oil amount, tons:</label>
+                    <input type="number" step="any" id="input2" required>
+                </div>
+                <div class="input-group">
+                    <label for="input3">Natural gas amount, tons:</label>
+                    <input type="number" step="any" id="input3" required>
+                </div>
+                <button type="submit" class="calculate-btn">Calculate</button>
+            </form>
+            <div id="result" class="result-box"></div>
+        </div>
+
+        <div class="navigation">
+            <button onclick="location.href='index.html'" type="button" class="nav-btn">Back to Main Calculator</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
